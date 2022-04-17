@@ -1,0 +1,41 @@
+const light = new THREE.HemisphereLight( 0xFF0000, 0xFF0000, 1 );
+scene.add( light );
+// const ambientLight = new THREE.AmbientLight(0xffffff);
+const pointLight = new THREE.PointLight(0xFF0000, 1)
+pointLight.position.set(30, 30, 60)
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@100&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+// #canvas {
+//     position: fixed;
+//     top: 0;
+// }
+// .hero-container {
+
+//     position: absolute;
+//     top: 0;
+//     color: white;
+//     height: 100vh;
+//     width: 100%;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     h1 {
+//         font-size: clamp(2rem, 5vw, 6rem);
+//     }
+//     h2 {
+//         font-size: clamp(1rem, 1.5vw, 5rem);
+//     }
+// }
